@@ -1,1 +1,3 @@
 # Personal-Data-Encryption
+
+Personal Data Encryption (PDE) provides Windows Hello based (TPM-backed) user authenticated data protection. BitLocker protects against the system’s integrity. PDE takes Windows security a step forward by requiring user’s entropy to unlock keys required to access PDE protected data (files, folders and buffers). PDE aims to protect data against physical attacks on the device when the user has not authenticated or when the user locks the device. PDE supports two levels – L1 (AfterFirstUnlock) for data that should stay available throughout the user’s session even when the device is locked. L2 (WhileUnlocked) provides stronger protection by limiting access to data to only when the device is unlocked.   
